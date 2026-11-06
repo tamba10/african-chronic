@@ -1,0 +1,2 @@
+<?php $pageTitle = $pageTitle ?? 'African Chronicle'; $pageDescription = $pageDescription ?? 'Independent journalism from Sierra Leone, across Africa and around the world.'; ?>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="<?= ac_e($pageDescription) ?>"><title><?= ac_e($pageTitle) ?> | African Chronicle</title><link rel="stylesheet" href="assets/site.css"></head><body>
